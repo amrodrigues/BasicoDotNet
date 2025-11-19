@@ -32,6 +32,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bernhoeft.GRT.Teste.Infra.Persistence.InMemory", "4-Infra\Bernhoeft.GRT.Teste.Infra.Persistence.InMemory\Bernhoeft.GRT.Teste.Infra.Persistence.InMemory.csproj", "{EB51A661-5DE1-4143-9325-5B8301DB61B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Core", "5- Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRT.Core.Interfaces", "5- Core\GRT.Core.Interfaces;\GRT.Core.Interfaces.csproj", "{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,10 @@ Global
 		{EB51A661-5DE1-4143-9325-5B8301DB61B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB51A661-5DE1-4143-9325-5B8301DB61B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB51A661-5DE1-4143-9325-5B8301DB61B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{6AED83C0-2A9C-463E-933F-F0AAF3B383CD} = {29B24B44-4607-4037-B721-60549CDF3C77}
 		{AA90F1B1-E234-40B7-9828-39AD0DA1AD7E} = {540CD85B-8E33-45CE-886D-B45F639B4592}
 		{EB51A661-5DE1-4143-9325-5B8301DB61B4} = {A19C7D2A-2DB8-4954-A814-D4A4AF9C0155}
+		{6BD8067E-EB96-459C-8A9F-E6ACD7C308B7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7ABD39E5-2584-4EB0-A485-EC3D2A6519CD}

@@ -14,10 +14,20 @@ namespace Bernhoeft.GRT.ContractWeb.Infra.Persistence.SqlServer.ContractStore.Re
         {
         }
 
+        public Task DeleteAsync(AvisoEntity aviso, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<List<AvisoEntity>> ObterTodosAvisosAsync(TrackingBehavior tracking = TrackingBehavior.Default, CancellationToken cancellationToken = default)
         {
             var query = tracking is TrackingBehavior.NoTracking ? Set.AsNoTrackingWithIdentityResolution() : Set;
             return query.ToListAsync();
+        }
+
+        public Task UpdateAsync(AvisoEntity aviso, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -6,6 +6,8 @@ namespace Bernhoeft.GRT.ContractWeb.Domain.SqlServer.ContractStore.Interfaces.Re
 {
     public interface IAvisoRepository : IRepository<AvisoEntity>
     {
+        Task DeleteAsync(AvisoEntity aviso, CancellationToken cancellationToken);
         Task<List<AvisoEntity>> ObterTodosAvisosAsync(TrackingBehavior tracking = TrackingBehavior.Default, CancellationToken cancellationToken = default);
+        Task UpdateAsync(AvisoEntity aviso, CancellationToken cancellationToken);
     }
 }

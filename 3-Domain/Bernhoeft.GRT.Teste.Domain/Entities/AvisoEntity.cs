@@ -1,4 +1,5 @@
-﻿namespace Bernhoeft.GRT.ContractWeb.Domain.SqlServer.ContractStore.Entities
+﻿
+namespace Bernhoeft.GRT.ContractWeb.Domain.SqlServer.ContractStore.Entities
 {
     public partial class AvisoEntity
     {
@@ -6,5 +7,12 @@
         public bool Ativo { get; set; } = true;
         public string Titulo { get; set; }
         public string Mensagem { get; set; }
+        public DateTime DataCriacao { get; set; }
+        public DateTime? DataEdicao { get; set; }
+
+        public void AtualizarMensagem(string mensagem)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
